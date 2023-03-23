@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Basic Calculator </title>
+    <style>
+        .container {
+            margin: auto;
+            background-color: blue;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        #answer {
+            width: 300px;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+        
+        input {
+            font-size: 30px;
+            width: 65px;
+            height: 50px;
+            margin: 5px;
+            border: 0px solid;
+            border-radius: 10px;
+            background: rgba(200, 42, 18, 0);
+            outline: none;
+        }
+        
+        .calc {
+            background: rgb(221, 21, 21);
+            padding: 10px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        
+        input {
+            box-shadow: 3px 3px 3px rgb(90, 90, 90), -2px -3px 3px rgb(245, 185, 185);
+        }
+        
+        input:hover {
+            cursor: pointer;
+        }
+        
+        input:active {
+            box-shadow: inset 5px 5px 5px rgb(237, 237, 237), inset -5px -5px 5px rgb(74, 71, 71);
+        }
+        
+        #answer {
+            box-shadow: inset 3px 3px 3px rgb(237, 237, 237), inset -3px -2px 5px rgb(105, 100, 100);
+        }
+        
+        .calc {
+            box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <body style="background-color:rgb(183, 176, 230);"></body>
+
+    <div calss="container" align="center">
+        <h1>BASIC CALCULATOR</h1>
+        <form name="operation">
+            <div class="calc">
+                <input type="text" id="answer" name="calculate">
+                <br>
+                <input type="button" value=" ( " onclick="operation.calculate.value+='(',vib()">
+                <input type="button" value=" ) " onclick="operation.calculate.value+=')',vib()">
+                <input type="button" value=" % " onclick="operation.calculate.value+='%',vib()">
+                <input type="button" value=" AC " onclick="operation.calculate.value ='',vib()">
+                <br>
+
+                <input type="button" value=" 7 " onclick="operation.calculate.value+='7',vib()">
+                <input type="button" value=" 8 " onclick="operation.calculate.value+='8',vib()">
+                <input type="button" value=" 9 " onclick="operation.calculate.value+='9',vib()">
+                <input type="button" value=" * " onclick="operation.calculate.value+='*',vib()">
+                <br>
+
+                <input type="button" value=" 4 " onclick="operation.calculate.value+='4',vib()">
+                <input type="button" value=" 5 " onclick="operation.calculate.value+='5',vib()">
+                <input type="button" value=" 6 " onclick="operation.calculate.value+='6',vib()">
+                <input type="button" value=" / " onclick="operation.calculate.value+='/',vib()">
+                <br>
+
+                <input type="button" value=" 1 " onclick="operation.calculate.value+='1',vib()">
+                <input type="button" value=" 2 " onclick="operation.calculate.value+='2',vib()">
+                <input type="button" value=" 3 " onclick="operation.calculate.value+='3',vib()">
+                <input type="button" value=" + " onclick="operation.calculate.value+='+',vib()">
+                <br>
+
+                <input type="button" value=" 0 " onclick="operation.calculate.value+='0',vib()">
+                <input type="button" value=" . " onclick="operation.calculate.value+='.',vib()">
+                <input type="button" value=" - " onclick="operation.calculate.value+='-',vib()">
+                <input type="button" value=" = " onclick="operation.calculate.value = eval(operation.calculate.value),vib()">
+                <br>
+
+            </div>
+        </form>
+    </div>
+    <br>
+</body>
+<br>
+<footer>
+    <br>
+
+    <a target="_blank" href="https://www.instagram.com/myfeeling776/">Follow Me</a>&nbsp;|
+    <a target="_blank" href="http://"></a>
+    <a target="_blank" href="#">Linkedin</a>&nbsp;|
+    <a target="_blank" href="#">Suggestions</a>&nbsp;|
+    <a target="_blank" href="">regards&copy;</a>
+</footer>
+
+
+</html>
